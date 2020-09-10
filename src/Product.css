@@ -21,6 +21,12 @@
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.product > img:hover {
+  transform: scale(1.07);
+  transition: 0.3s;
 }
 
 .product > button {
@@ -29,8 +35,13 @@
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
+  transition: 0.3s;
 }
 
+.product > button:hover {
+  transform: scale(1.07);
+  transition: 0.3s;
+}
 .product__price {
   margin-top: 5px;
 }
